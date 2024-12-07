@@ -118,7 +118,8 @@
     "<all_urls>",
     "storage",
     "activeTab",
-    "contextMenus",
+    "menus",
+	  "messagesModify",
     "webRequest",
     "webRequestBlocking"
   ],
@@ -163,10 +164,7 @@
   "browser_specific_settings": {
     "gecko": {
       "id": "{5efceaa7-f3a2-4e59-a54b-85319448e305}",
-      "strict_min_version": "63.0"
-    },
-    "gecko_android": {
-      "strict_min_version": "113.0"
+      "strict_min_version": "78.0a1"
     }
   }
 }

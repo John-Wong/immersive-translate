@@ -38836,7 +38836,7 @@ ${s}}
 			let r = Pe(e.interfaceLanguage, `browser.${t.id}`, {
 				targetLanguage: Ot(e.targetLanguage, e.interfaceLanguage, !1, !0)
 			});
-			j.contextMenus.update(t.id, {
+			j.menus.update(t.id, {
 				title: r,
 				visible: n
 			})
@@ -38863,7 +38863,7 @@ ${s}}
 			let u = Ra(n.shortcuts.toggleTranslatePage);
 			u && (i += `(${u})`), PC = ""
 		}
-		j.contextMenus.update(r, {
+		j.menus.update(r, {
 			title: i,
 			visible: a
 		})
@@ -38871,7 +38871,7 @@ ${s}}
 	async function Fo() {
 		try {
 			let e = await LC();
-			j.contextMenus.update(el, {
+			j.menus.update(el, {
 				visible: e
 			})
 		} catch {}

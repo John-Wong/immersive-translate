@@ -30778,7 +30778,7 @@ Translate the content to {{to}} Language:
 	function X4() {
 		return Kr() && !ot()
 	}
-	var Va = X4() ? ["action"] : ["browser_action", "page_action"],
+	var Va = X4() ? ["action"] : ["browser_action"],
 		$a = "",
 		Ul = [{
 			id: "toggleTranslatePage",
@@ -30813,7 +30813,7 @@ Translate the content to {{to}} Language:
 					let r = Ii(e.shortcuts.toggleTranslatePage);
 					r && (n += `(${r})`)
 				}
-				f.contextMenus.create({
+				f.menus.create({
 					id: t.id,
 					title: n,
 					contexts: t.contexts,
@@ -30845,14 +30845,14 @@ Translate the content to {{to}} Language:
 			let s = Ii(a.shortcuts.toggleTranslatePage);
 			s && (i += `(${s})`), $a = ""
 		}
-		f.contextMenus.update(n, {
+		f.menus.update(n, {
 			title: i,
 			visible: r
 		})
 	}
 
 	function zl() {
-		f.contextMenus.onClicked.addListener(async e => {
+		f.menus.onClicked.addListener(async e => {
 			if (e.menuItemId === jr) f.runtime.openOptionsPage();
 			else if (e.menuItemId === Or) {
 				let t = Tl();
@@ -30944,7 +30944,7 @@ Translate the content to {{to}} Language:
 	async function Gl() {
 		try {
 			let e = await ji();
-			f.contextMenus.update($t, {
+			f.menus.update($t, {
 				visible: e
 			})
 		} catch {}
@@ -31450,13 +31450,19 @@ Translate the content to {{to}} Language:
 	$l();
 	Zl();
 	Yl();
-	f.contextMenus && zl();
+	f.menus && zl();
 	async function bh() {
-		await Jl(), f.contextMenus && qi();
+		await Jl(), f.menus && qi();
 		let e = await Ne();
 		Xl(e), Hl(), e.debug && P.setLevel("debug")
 	}
 	bh().catch(e => {});
+	async function registerMsgDisplayScript() {
+		await messenger.messageDisplayScripts.register({
+			js: [{file: "/content_script.js"}, {file: "/content_start.js"}]
+		});
+	}
+	registerMsgDisplayScript();
 })();
 /*! Bundled license information:
 
