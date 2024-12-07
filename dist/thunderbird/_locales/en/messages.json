@@ -1,0 +1,110 @@
+{
+  "shortBrandName": {
+    "message": "Immersive Translate"
+  },
+  "brandName": {
+    "message": "Immersive Translate - Translate Web & PDF"
+  },
+  "brandDescription": {
+    "message": "Free Translate Website, Translate PDF & Epub eBook, Translate Video Subtitles in Bilingual"
+  },
+  "toggleTranslatePage": {
+    "message": "Translate to {targetLanguage}"
+  },
+  "toggleTranslateTheWholePage": {
+    "message": "Translate entire page/Display original text"
+  },
+  "toggleTranslateToThePageEndImmediately": {
+    "message": "Translate instantly to the bottom of the page/Display original text"
+  },
+  "toggleTranslateTheMainPage": {
+    "message": "Translate main page /Display original text"
+  },
+  "shareToDraft": {
+    "message": "Share Bilingual Page"
+  },
+  "openOptionsPage": {
+    "message": "Open Settings Page"
+  },
+  "translateLocalPdfFile": {
+    "message": "Translate local PDF File"
+  },
+  "openEbookViewer": {
+    "message": "Read local e-books"
+  },
+  "openEbookBuilder": {
+    "message": "Create Bilingual EPUB E-books"
+  },
+  "translateLocalHtmlFile": {
+    "message": "Translate HTML/txt File"
+  },
+  "translateLocalSubtitleFile": {
+    "message": "Translate Local Subtitle File"
+  },
+  "openAboutPage": {
+    "message": "About / Feedback/Sponsor"
+  },
+  "toggleMouseHoverTranslateDirectly": {
+    "message": "Temporarily enable or disable direct translation by mouse hover on the page"
+  },
+  "translateWithOpenAI": {
+    "message": "Temporarily translate the current page with OpenAI"
+  },
+  "translateWithDeepL": {
+    "message": "Temporarily translate the current page with DeepL"
+  },
+  "translateWithGoogle": {
+    "message": "Temporarily translate the current page with Google"
+  },
+  "translateWithBing": {
+    "message": "Temporarily translate the current page with Microsoft Translator"
+  },
+  "translateWithGemini": {
+    "message": "Temporarily translate the current page with Gemini"
+  },
+  "translateWithTransmart": {
+    "message": "Temporarily translate the current page with Tencent Translator"
+  },
+  "translateInputBox": {
+    "message": "Translate the content of the current input box"
+  },
+  "toggleOnlyTransation": {
+    "message": "Switch to /translation-only mode"
+  },
+  "toggleTranslationMask": {
+    "message": "Toggle blur effect on translated text (learning mode) for the current page"
+  },
+  "toggleVideoSubtitlePreTranslation": {
+    "message": "Switch Video Subtitles with Immersive Translation Feature"
+  },
+  "brandDescriptionForSafari": {
+    "message": "Free Translate Website, Translate PDF & Epub eBook, Translate Video Subtitles in Bilingual"
+  },
+  "PdfProFile": {
+    "message": "AI-Driven PDF Pro Translation"
+  },
+  "textTranslate": {
+    "message": "Text Translation"
+  },
+  "translateWithClaude": {
+    "message": "Temporarily use Claude to translate the current page."
+  },
+  "toggleTranslatePageOfficialPage": {
+    "message": "Translate Webpage/Show Original Text"
+  },
+  "translateText": {
+    "message": "Translate \"{text}\""
+  },
+  "translateWithCustom1": {
+    "message": "Temporary use of custom translation services to translate the current page(1)"
+  },
+  "translateWithCustom2": {
+    "message": "Temporary use of custom translation services to translate the current page(2)"
+  },
+  "translateWithCustom3": {
+    "message": "Temporary use of custom translation services to translate the current page(3)"
+  },
+  "translateMangaMenuId": {
+    "message": "Translate image/restore image"
+  }
+}

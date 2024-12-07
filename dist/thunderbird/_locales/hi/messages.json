@@ -1,0 +1,110 @@
+{
+  "shortBrandName": {
+    "message": "Immersive Translate"
+  },
+  "brandName": {
+    "message": "इमर्सिव अनुवाद: द्विभाषी वेब पेज अनुवाद और पीडीएफ दस्तावेज़ अनुवाद"
+  },
+  "brandDescription": {
+    "message": "Bilingual web page translation, also supports PDF translation, bilingual Epub eBook translation, free to use."
+  },
+  "toggleTranslatePage": {
+    "message": "कृपया {targetLanguage} में अनुवाद करें"
+  },
+  "toggleTranslateTheWholePage": {
+    "message": "पृष्ठ के सभी क्षेत्रों का अनुवाद करें/मूल पाठ प्रदर्शित करें"
+  },
+  "toggleOnlyTransation": {
+    "message": "द्विभाषी/केवल अनुवाद मोड पर स्विच करें"
+  },
+  "toggleTranslateToThePageEndImmediately": {
+    "message": "तुरंत पृष्ठ के नीचे अनुवाद करें/मूल पाठ दिखाएं"
+  },
+  "toggleTranslateTheMainPage": {
+    "message": "पृष्ठ के मुख्य क्षेत्र का अनुवाद करें/मूल पाठ प्रदर्शित करें"
+  },
+  "shareToDraft": {
+    "message": "द्विभाषी पृष्ठ साझा करें"
+  },
+  "openOptionsPage": {
+    "message": "सेटिंग पृष्ठ खोलें"
+  },
+  "toggleTranslationMask": {
+    "message": "अनुवाद धुंधला प्रभाव दिखाएँ/छिपाएँ"
+  },
+  "translateLocalPdfFile": {
+    "message": "स्थानीय पीडीएफ फाइलों का अनुवाद करें"
+  },
+  "openEbookViewer": {
+    "message": "स्थानीय ई-पुस्तकें पढ़ें"
+  },
+  "openEbookBuilder": {
+    "message": "द्विभाषी EPUB ई-पुस्तकें बनाएँ"
+  },
+  "translateLocalHtmlFile": {
+    "message": "HTML/txt फ़ाइलों का अनुवाद करें"
+  },
+  "translateLocalSubtitleFile": {
+    "message": "स्थानीय उपशीर्षक फ़ाइलों का अनुवाद करें"
+  },
+  "openAboutPage": {
+    "message": "के बारे में/प्रतिक्रिया"
+  },
+  "translateInputBox": {
+    "message": "वर्तमान इनपुट बॉक्स की सामग्री का अनुवाद करें"
+  },
+  "translateWithTransmart": {
+    "message": "अस्थायी रूप से टेंसेंट अनुवाद का उपयोग करके वर्तमान पृष्ठ का अनुवाद करें"
+  },
+  "translateWithOpenAI": {
+    "message": "अस्थायी रूप से OpenAI का उपयोग करके वर्तमान पृष्ठ का अनुवाद करें"
+  },
+  "toggleMouseHoverTranslateDirectly": {
+    "message": "पेज पर अस्थायी रूप से माउस होवर सीधे अनुवाद को सक्षम या बंद करें"
+  },
+  "toggleVideoSubtitlePreTranslation": {
+    "message": "द्विभाषीय सबटायटल स्विच करें, डुबकी अनुवाद सेटिंग्स का प्राथमिकता से उपयोग करें"
+  },
+  "translateWithGemini": {
+    "message": "अस्थायी रूप से Gemini का उपयोग करके वर्तमान पृष्ठ का अनुवाद करें"
+  },
+  "translateWithDeepL": {
+    "message": "अस्थायी रूप से DeepL का उपयोग करके वर्तमान पृष्ठ का अनुवाद करें"
+  },
+  "translateWithGoogle": {
+    "message": "अस्थायी रूप से Google अनुवाद का उपयोग करके वर्तमान पृष्ठ का अनुवाद करें"
+  },
+  "translateWithBing": {
+    "message": "माइक्रोसॉफ्ट अनुवाद का अस्थायी रूप से वर्तमान पृष्ठ का उपयोग करें"
+  },
+  "brandDescriptionForSafari": {
+    "message": "【इमर्सिव अनुवाद】 एक मुफ्त (मूल / अनुवाद) द्विभाषी वेबपेज अनुवाद प्लगइन, जो समय-समय पर PDF अनुवाद और EPUB ई-बुक अनुवाद का समर्थन करता है और मूल दस्तावेज़ की विन्यास को बनाए रखता है, YouTube/Netflix आदि ऑनलाइन वीडियो द्विभाषी उपशीर्षक अनुवाद, Deepl/Google आदि प्रमुख अनुवाद सेवाओं का समर्थन करता है;"
+  },
+  "PdfProFile": {
+    "message": "AI संचालित PDF Pro अनुवाद"
+  },
+  "textTranslate": {
+    "message": "लिखित अनुवाद"
+  },
+  "translateWithClaude": {
+    "message": "क्लॉड का उपयोग करके वर्तमान पृष्ठ का अस्थायी अनुवाद करें"
+  },
+  "translateText": {
+    "message": "Translate \"{text}\""
+  },
+  "toggleTranslatePageOfficialPage": {
+    "message": "वेब पेज अनुवाद करें/मूल पाठ दिखाएं"
+  },
+  "translateWithCustom1": {
+    "message": "वर्तमान पृष्ठ का अनुवाद करने के लिए अस्थायी रूप से कस्टम अनुवाद सेवा का उपयोग करें(1)"
+  },
+  "translateWithCustom3": {
+    "message": "वर्तमान पृष्ठ का अनुवाद करने के लिए अस्थायी रूप से कस्टम अनुवाद सेवा का उपयोग करें(3)"
+  },
+  "translateWithCustom2": {
+    "message": "वर्तमान पृष्ठ का अनुवाद करने के लिए अस्थायी रूप से कस्टम अनुवाद सेवा का उपयोग करें(2)"
+  },
+  "translateMangaMenuId": {
+    "message": "छवि का अनुवाद करें/छवि पुनर्स्थापित करें"
+  }
+}

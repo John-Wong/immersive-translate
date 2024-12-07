@@ -1,0 +1,110 @@
+{
+  "shortBrandName": {
+    "message": "Immersive Translate"
+  },
+  "brandName": {
+    "message": "Immersion Translation: traduzione bilingue di pagine web e documenti PDF"
+  },
+  "brandDescription": {
+    "message": "Bilingual web page translation, also supports PDF translation, bilingual Epub eBook translation, free to use."
+  },
+  "toggleTranslatePage": {
+    "message": "Traduci in {targetLanguage}"
+  },
+  "toggleTranslateTheWholePage": {
+    "message": "Tradurre tutte le aree della pagina/visualizzare il testo originale"
+  },
+  "toggleOnlyTransation": {
+    "message": "Cambia modalità bilingue/solo traduzione"
+  },
+  "toggleTranslateToThePageEndImmediately": {
+    "message": "Traduzione immediata a fondo pagina/visualizzazione del testo originale"
+  },
+  "toggleTranslateTheMainPage": {
+    "message": "Tradurre l'area principale della pagina/visualizzare il testo originale"
+  },
+  "shareToDraft": {
+    "message": "Condividi le pagine bilingue"
+  },
+  "openOptionsPage": {
+    "message": "Aprire la pagina delle impostazioni"
+  },
+  "toggleTranslationMask": {
+    "message": "Mostra/nascondi l'effetto di sfocatura della traslazione"
+  },
+  "translateLocalPdfFile": {
+    "message": "Tradurre i file PDF locali"
+  },
+  "openEbookViewer": {
+    "message": "Leggere gli eBook locali"
+  },
+  "openEbookBuilder": {
+    "message": "Creare eBook EPUB bilingue"
+  },
+  "translateLocalHtmlFile": {
+    "message": "Tradurre file HTML/testo"
+  },
+  "translateLocalSubtitleFile": {
+    "message": "Tradurre i file dei sottotitoli locali"
+  },
+  "openAboutPage": {
+    "message": "Informazioni/Risposte"
+  },
+  "translateWithBing": {
+    "message": "Utilizzo temporaneo di Microsoft per tradurre la pagina corrente"
+  },
+  "translateWithOpenAI": {
+    "message": "Utilizzo temporaneo di OpenAI per tradurre la pagina corrente"
+  },
+  "translateWithDeepL": {
+    "message": "Utilizzo temporaneamente DeepL per tradurre la pagina corrente"
+  },
+  "translateWithTransmart": {
+    "message": "Utilizzo temporaneo di Tencent per tradurre la pagina corrente"
+  },
+  "translateWithGoogle": {
+    "message": "Utilizzo temporaneo di Google per tradurre la pagina corrente"
+  },
+  "translateWithGemini": {
+    "message": "Utilizza temporaneamente Gemini per tradurre la pagina corrente"
+  },
+  "translateInputBox": {
+    "message": "Traduci il contenuto attuale del campo di input."
+  },
+  "toggleVideoSubtitlePreTranslation": {
+    "message": "Passa ai sottotitoli bilingui utilizzando preferibilmente le impostazioni di traduzione immersive."
+  },
+  "toggleMouseHoverTranslateDirectly": {
+    "message": "Abilita o disabilita temporaneamente la traduzione diretta al passaggio del mouse sulla pagina"
+  },
+  "brandDescriptionForSafari": {
+    "message": "【Traduzione Immersiva】Un plugin gratuito per la traduzione di pagine web bilingue (originale/tradotto), che supporta anche la traduzione di PDF e libri elettronici EPUB mantenendo la formattazione originale del documento, la traduzione di sottotitoli bilingui per video online come YouTube/Netflix, e supporta servizi di traduzione mainstream come Deepl/Google;"
+  },
+  "PdfProFile": {
+    "message": "Traduzione Pro di PDF guidata da AI"
+  },
+  "textTranslate": {
+    "message": "Traduzione del testo"
+  },
+  "translateWithClaude": {
+    "message": "Utilizza temporaneamente Claude per tradurre la pagina corrente"
+  },
+  "translateText": {
+    "message": "Translate \"{text}\""
+  },
+  "toggleTranslatePageOfficialPage": {
+    "message": "Traduci pagina web / Mostra testo originale"
+  },
+  "translateWithCustom1": {
+    "message": "Uso temporaneo di servizi di traduzione personalizzati per tradurre la pagina corrente(1)"
+  },
+  "translateWithCustom2": {
+    "message": "Uso temporaneo di servizi di traduzione personalizzati per tradurre la pagina corrente(2)"
+  },
+  "translateWithCustom3": {
+    "message": "Uso temporaneo di servizi di traduzione personalizzati per tradurre la pagina corrente(3)"
+  },
+  "translateMangaMenuId": {
+    "message": "Tradurre l'immagine/ripristinare l'immagine"
+  }
+}

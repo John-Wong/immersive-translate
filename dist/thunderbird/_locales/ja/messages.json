@@ -1,0 +1,110 @@
+{
+  "shortBrandName": {
+    "message": "Immersive Translate"
+  },
+  "brandName": {
+    "message": "没入型翻訳 - Webページ翻訳拡張機能 | PDF翻訳 | 無料"
+  },
+  "brandDescription": {
+    "message": "無料で使用できる（原文/翻訳）対訳Webページ翻訳拡張機能、PDF翻訳（元の文書のフォーマットを保持）、動画字幕翻訳（YouTube、Netflixなど）、EPUB電子書籍の翻訳。"
+  },
+  "toggleTranslatePage": {
+    "message": "{targetLanguage}に翻訳してください。"
+  },
+  "toggleTranslateTheWholePage": {
+    "message": "ページの全領域を翻訳する／原文を表示する"
+  },
+  "toggleOnlyTransation": {
+    "message": "バイリンガル/翻訳テキストのみモードに切り替えてください"
+  },
+  "toggleTranslateToThePageEndImmediately": {
+    "message": "ページ下部への即時翻訳／原文の表示"
+  },
+  "toggleTranslateTheMainPage": {
+    "message": "ページのメインエリアを翻訳する／原文を表示する"
+  },
+  "shareToDraft": {
+    "message": "バイリンガルページを共有する"
+  },
+  "openOptionsPage": {
+    "message": "設定ページを開く"
+  },
+  "toggleTranslationMask": {
+    "message": "並進ブラー効果の表示／非表示"
+  },
+  "translateLocalPdfFile": {
+    "message": "ローカルのPDFファイルを翻訳する"
+  },
+  "openEbookViewer": {
+    "message": "地元の電子書籍を読む"
+  },
+  "openEbookBuilder": {
+    "message": "バイリンガルEPUB電子書籍の制作"
+  },
+  "translateLocalHtmlFile": {
+    "message": "HTML/テキストファイルを翻訳する"
+  },
+  "translateLocalSubtitleFile": {
+    "message": "ローカル字幕ファイルを翻訳する"
+  },
+  "openAboutPage": {
+    "message": "ご意見・ご感想"
+  },
+  "translateWithGemini": {
+    "message": "現在のページを一時的にGeminiで翻訳してください"
+  },
+  "translateWithOpenAI": {
+    "message": "一時的にOpenAIを使って現在のページを翻訳してください"
+  },
+  "translateInputBox": {
+    "message": "現在の入力ボックスの内容を翻訳してください。"
+  },
+  "translateWithDeepL": {
+    "message": "現在のページを一時的にDeepLで翻訳してください。"
+  },
+  "translateWithGoogle": {
+    "message": "一時的にGoogle翻訳で現在のページを翻訳してください。"
+  },
+  "translateWithTransmart": {
+    "message": "一時的にテンセント翻訳で現在のページを翻訳してください"
+  },
+  "translateWithBing": {
+    "message": "一時的にマイクロソフト翻訳を使用して現在のページを翻訳してください。"
+  },
+  "toggleMouseHoverTranslateDirectly": {
+    "message": "ページ上で一時的にマウスホバーによる直接翻訳を有効にするか無効にする"
+  },
+  "toggleVideoSubtitlePreTranslation": {
+    "message": "バイリンガル字幕を切り替えて、没入型翻訳設定を優先的に使用してください。"
+  },
+  "brandDescriptionForSafari": {
+    "message": "【没入型翻訳】無料の（原文/訳文）バイリンガル対照ウェブページ翻訳プラグインで、PDF翻訳とEPUB電子書籍翻訳を同時にサポートし、原文のレイアウトを保持します。YouTube/Netflixなどのオンラインビデオのバイリンガル字幕翻訳もサポートし、Deepl/Googleなどの主流翻訳サービスに対応しています。"
+  },
+  "PdfProFile": {
+    "message": "AI 駆動の PDF Pro 翻訳"
+  },
+  "textTranslate": {
+    "message": "テキスト翻訳"
+  },
+  "translateWithClaude": {
+    "message": "現在のページの翻訳に一時的にClaudeを使用してください。"
+  },
+  "translateText": {
+    "message": "Translate \"{text}\""
+  },
+  "toggleTranslatePageOfficialPage": {
+    "message": "ウェブページを翻訳/原文を表示"
+  },
+  "translateWithCustom1": {
+    "message": "現在のページを翻訳するためのカスタム翻訳サービスの一時的な使用(1)"
+  },
+  "translateWithCustom3": {
+    "message": "現在のページを翻訳するためのカスタム翻訳サービスの一時的な使用(3)"
+  },
+  "translateWithCustom2": {
+    "message": "現在のページを翻訳するためのカスタム翻訳サービスの一時的な使用(2)"
+  },
+  "translateMangaMenuId": {
+    "message": "画像の翻訳/画像の復元"
+  }
+}

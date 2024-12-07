@@ -1,0 +1,110 @@
+{
+  "shortBrandName": {
+    "message": "Immersive Translate"
+  },
+  "brandName": {
+    "message": "ترجمة غامرة: ترجمة صفحات الويب ثنائية اللغة وترجمة مستندات PDF"
+  },
+  "brandDescription": {
+    "message": "Bilingual web page translation, also supports PDF translation, bilingual Epub eBook translation, free to use."
+  },
+  "toggleTranslatePage": {
+    "message": "ترجم إلى {targetLanguage}"
+  },
+  "toggleTranslateTheWholePage": {
+    "message": "ترجمة جميع مناطق الصفحة/عرض النص الأصلي"
+  },
+  "toggleOnlyTransation": {
+    "message": "تبديل الوضع ثنائي اللغة / الترجمة فقط"
+  },
+  "toggleTranslateToThePageEndImmediately": {
+    "message": "ترجمة فورية إلى أسفل الصفحة/إظهار النص الأصلي"
+  },
+  "toggleTranslateTheMainPage": {
+    "message": "ترجمة المنطقة الرئيسية للصفحة/عرض النص الأصلي"
+  },
+  "shareToDraft": {
+    "message": "مشاركة الصفحات ثنائية اللغة"
+  },
+  "openOptionsPage": {
+    "message": "افتح صفحة الإعدادات"
+  },
+  "toggleTranslationMask": {
+    "message": "إظهار/إخفاء تأثير طمس الترجمة"
+  },
+  "translateLocalPdfFile": {
+    "message": "ترجمة ملفات PDF المحلية"
+  },
+  "openEbookViewer": {
+    "message": "قراءة الكتب الإلكترونية المحلية"
+  },
+  "openEbookBuilder": {
+    "message": "إنشاء كتب إلكترونية EPUB ثنائية اللغة"
+  },
+  "translateLocalHtmlFile": {
+    "message": "ترجمة ملفات HTML/txt"
+  },
+  "translateLocalSubtitleFile": {
+    "message": "ترجمة ملفات الترجمة المحلية"
+  },
+  "openAboutPage": {
+    "message": "حول/ردود الفعل"
+  },
+  "translateInputBox": {
+    "message": "ترجم محتوى مربع الإدخال الحالي"
+  },
+  "translateWithDeepL": {
+    "message": "استخدم DeepL مؤقتًا لترجمة الصفحة الحالية"
+  },
+  "translateWithGoogle": {
+    "message": "استخدم Google Translate مؤقتًا لترجمة الصفحة الحالية"
+  },
+  "translateWithOpenAI": {
+    "message": "استخدم OpenAI مؤقتًا لترجمة الصفحة الحالية"
+  },
+  "translateWithBing": {
+    "message": "استخدم ترجمة مايكروسوفت مؤقتًا للصفحة الحالية"
+  },
+  "translateWithGemini": {
+    "message": "استخدم Gemini مؤقتًا لترجمة الصفحة الحالية"
+  },
+  "translateWithTransmart": {
+    "message": "استخدم ترجمة تينسنت مؤقتًا للصفحة الحالية"
+  },
+  "toggleMouseHoverTranslateDirectly": {
+    "message": "تمكين أو تعطيل الترجمة المباشرة عند تمرير الماوس مؤقتًا على الصفحة"
+  },
+  "toggleVideoSubtitlePreTranslation": {
+    "message": "تبديل إلى الترجمة الغامرة المفضلة للترجمات الثنائية اللغة"
+  },
+  "brandDescriptionForSafari": {
+    "message": "【الترجمة الغامرة】 إضافة مجانية لترجمة الصفحات الثنائية اللغة (النص الأصلي / الترجمة)، تدعم في الوقت نفسه ترجمة PDF وترجمة الكتب الإلكترونية EPUB مع الحفاظ على تنسيق الوثيقة الأصلية، ترجمة الترجمات الثنائية اللغة للفيديوهات على الإنترنت مثل YouTube/Netflix، تدعم خدمات الترجمة الرئيسية مثل Deepl/Google؛"
+  },
+  "PdfProFile": {
+    "message": "ترجمة PDF Pro بدعم من الذكاء الاصطناعي"
+  },
+  "textTranslate": {
+    "message": "ترجمة النص"
+  },
+  "translateWithClaude": {
+    "message": "استخدم Claude مؤقتًا لترجمة الصفحة الحالية"
+  },
+  "translateText": {
+    "message": "Translate \"{text}\""
+  },
+  "toggleTranslatePageOfficialPage": {
+    "message": "ترجمة صفحة الويب / عرض النص الأصلي"
+  },
+  "translateWithCustom1": {
+    "message": "استخدام خدمة ترجمة مخصصة مؤقتًا لترجمة الصفحة الحالية(1)"
+  },
+  "translateWithCustom2": {
+    "message": "استخدام خدمة ترجمة مخصصة مؤقتًا لترجمة الصفحة الحالية(2)"
+  },
+  "translateWithCustom3": {
+    "message": "استخدام خدمة ترجمة مخصصة مؤقتًا لترجمة الصفحة الحالية(3)"
+  },
+  "translateMangaMenuId": {
+    "message": "ترجمة الصورة/استعادة الصورة"
+  }
+}

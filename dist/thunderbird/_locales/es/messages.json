@@ -1,0 +1,110 @@
+{
+  "shortBrandName": {
+    "message": "Immersive Translate"
+  },
+  "brandName": {
+    "message": "Immersion Translation: Traducción bilingüe de páginas web y documentos PDF"
+  },
+  "brandDescription": {
+    "message": "Bilingual web page translation, also supports PDF translation, bilingual Epub eBook translation, free to use."
+  },
+  "toggleTranslatePage": {
+    "message": "Traducir a {targetLanguage}"
+  },
+  "toggleTranslateTheWholePage": {
+    "message": "Traducir todas las áreas de la página/visualizar el texto original"
+  },
+  "toggleOnlyTransation": {
+    "message": "Cambiar al modo bilingüe/solo texto traducido"
+  },
+  "toggleTranslateToThePageEndImmediately": {
+    "message": "Traducción inmediata al final de la página/visualización del texto original"
+  },
+  "toggleTranslateTheMainPage": {
+    "message": "Traducir el área principal de la página/visualizar el texto original"
+  },
+  "shareToDraft": {
+    "message": "Compartir páginas bilingües"
+  },
+  "openOptionsPage": {
+    "message": "Abrir la página de configuración"
+  },
+  "toggleTranslationMask": {
+    "message": "Mostrar/ocultar el efecto de desenfoque de traslación"
+  },
+  "translateLocalPdfFile": {
+    "message": "Traducir archivos PDF locales"
+  },
+  "openEbookViewer": {
+    "message": "Leer libros electrónicos locales"
+  },
+  "openEbookBuilder": {
+    "message": "Creación de eBooks EPUB bilingües"
+  },
+  "translateLocalHtmlFile": {
+    "message": "Traducir archivos HTML/txt"
+  },
+  "translateLocalSubtitleFile": {
+    "message": "Traducir archivos de subtítulos locales"
+  },
+  "openAboutPage": {
+    "message": "Acerca de/Feedback"
+  },
+  "translateWithDeepL": {
+    "message": "Uso temporal de DeepL para traducir la página actual"
+  },
+  "translateWithBing": {
+    "message": "Uso temporal de Microsoft para traducir la página actual"
+  },
+  "translateWithTransmart": {
+    "message": "Uso temporal de Tencent para traducir la página actual"
+  },
+  "translateInputBox": {
+    "message": "Traducir el contenido actual del cuadro de entrada."
+  },
+  "translateWithOpenAI": {
+    "message": "Uso temporal de OpenAI para traducir la página actual"
+  },
+  "toggleMouseHoverTranslateDirectly": {
+    "message": "Habilitar o deshabilitar temporalmente la traducción directa al pasar el mouse en la página"
+  },
+  "translateWithGemini": {
+    "message": "Usa temporalmente Gemini para traducir la página actual"
+  },
+  "toggleVideoSubtitlePreTranslation": {
+    "message": "Cambie a subtítulos bilingües y priorice la configuración de traducción inmersiva."
+  },
+  "translateWithGoogle": {
+    "message": "Uso temporal de Google Traductor para traducir la página actual"
+  },
+  "brandDescriptionForSafari": {
+    "message": "【Traducción inmersiva】Un complemento de traducción de páginas web bilingüe (original/traducción) gratuito que también soporta la traducción de PDF y libros electrónicos EPUB manteniendo el formato original del documento, la traducción de subtítulos bilingües de videos en línea como YouTube/Netflix, y soporta servicios de traducción principales como Deepl/Google;"
+  },
+  "PdfProFile": {
+    "message": "AI impulsado por PDF Pro traducción"
+  },
+  "textTranslate": {
+    "message": "Traducción de texto"
+  },
+  "translateWithClaude": {
+    "message": "Utilice temporalmente a Claude para traducir la página actual."
+  },
+  "translateText": {
+    "message": "Translate \"{text}\""
+  },
+  "toggleTranslatePageOfficialPage": {
+    "message": "Traducir página web/Mostrar texto original"
+  },
+  "translateWithCustom1": {
+    "message": "Uso temporal de servicios de traducción personalizados para traducir la página actual(1)"
+  },
+  "translateWithCustom2": {
+    "message": "Uso temporal de servicios de traducción personalizados para traducir la página actual(2)"
+  },
+  "translateWithCustom3": {
+    "message": "Uso temporal de servicios de traducción personalizados para traducir la página actual(3)"
+  },
+  "translateMangaMenuId": {
+    "message": "Traducir imagen/restaurar imagen"
+  }
+}

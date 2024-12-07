@@ -1,0 +1,172 @@
+{
+  "manifest_version": 2,
+  "name": "__MSG_brandName__",
+  "description": "__MSG_brandDescription__",
+  "version": "1.11.7",
+  "default_locale": "en",
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "web_accessible_resources": [
+    "styles/inject.css",
+    "pdf/index.html",
+    "video-subtitle/inject.js",
+    "image/inject.js"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>",
+        "file:///*",
+        "*://*/*"
+      ],
+      "js": [
+        "content_script.js"
+      ],
+      "run_at": "document_end",
+      "all_frames": true
+    },
+    {
+      "matches": [
+        "<all_urls>",
+        "file:///*",
+        "*://*/*"
+      ],
+      "js": [
+        "content_start.js"
+      ],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ],
+  "commands": {
+    "toggleTranslatePage": {
+      "suggested_key": {
+        "default": "Alt+A"
+      },
+      "description": "__MSG_toggleTranslatePageOfficialPage__"
+    },
+    "toggleTranslateTheWholePage": {
+      "suggested_key": {
+        "default": "Alt+W"
+      },
+      "description": "__MSG_toggleTranslateTheWholePage__"
+    },
+    "toggleOnlyTransation": {
+      "description": "__MSG_toggleOnlyTransation__"
+    },
+    "toggleTranslateToThePageEndImmediately": {
+      "description": "__MSG_toggleTranslateToThePageEndImmediately__"
+    },
+    "toggleTranslateTheMainPage": {
+      "description": "__MSG_toggleTranslateTheMainPage__"
+    },
+    "toggleTranslationMask": {
+      "description": "__MSG_toggleTranslationMask__"
+    },
+    "shareToDraft": {
+      "description": "__MSG_shareToDraft__"
+    },
+    "toggleMouseHoverTranslateDirectly": {
+      "description": "__MSG_toggleMouseHoverTranslateDirectly__"
+    },
+    "translateWithOpenAI": {
+      "description": "__MSG_translateWithOpenAI__"
+    },
+    "translateWithDeepL": {
+      "description": "__MSG_translateWithDeepL__"
+    },
+    "translateWithGoogle": {
+      "description": "__MSG_translateWithGoogle__"
+    },
+    "translateWithTransmart": {
+      "description": "__MSG_translateWithTransmart__"
+    },
+    "translateWithGemini": {
+      "description": "__MSG_translateWithGemini__"
+    },
+    "translateWithBing": {
+      "description": "__MSG_translateWithBing__"
+    },
+    "translateWithClaude": {
+      "description": "__MSG_translateWithClaude__"
+    },
+    "translateInputBox": {
+      "description": "__MSG_translateInputBox__"
+    },
+    "translateWithCustom1": {
+      "description": "__MSG_translateWithCustom1__"
+    },
+    "translateWithCustom2": {
+      "description": "__MSG_translateWithCustom2__"
+    },
+    "translateWithCustom3": {
+      "description": "__MSG_translateWithCustom3__"
+    },
+    "toggleVideoSubtitlePreTranslation": {
+      "description": "__MSG_toggleVideoSubtitlePreTranslation__"
+    }
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true,
+    "browser_style": false
+  },
+  "permissions": [
+    "<all_urls>",
+    "storage",
+    "activeTab",
+    "contextMenus",
+    "webRequest",
+    "webRequestBlocking"
+  ],
+  "browser_action": {
+    "default_icon": "icons/32.png",
+    "default_popup": "popup.html",
+    "theme_icons": [
+      {
+        "dark": "icons/32.png",
+        "light": "icons/dark-32.png",
+        "size": 32
+      },
+      {
+        "dark": "icons/48.png",
+        "light": "icons/dark-48.png",
+        "size": 48
+      },
+      {
+        "dark": "icons/64.png",
+        "light": "icons/dark-64.png",
+        "size": 64
+      },
+      {
+        "dark": "icons/128.png",
+        "light": "icons/dark-128.png",
+        "size": 128
+      },
+      {
+        "dark": "icons/256.png",
+        "light": "icons/dark-256.png",
+        "size": 256
+      }
+    ]
+  },
+  "icons": {
+    "32": "icons/32.png",
+    "48": "icons/48.png",
+    "64": "icons/64.png",
+    "128": "icons/128.png",
+    "256": "icons/256.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{5efceaa7-f3a2-4e59-a54b-85319448e305}",
+      "strict_min_version": "63.0"
+    },
+    "gecko_android": {
+      "strict_min_version": "113.0"
+    }
+  }
+}

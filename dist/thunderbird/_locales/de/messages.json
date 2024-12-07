@@ -1,0 +1,110 @@
+{
+  "shortBrandName": {
+    "message": "Immersive Translate"
+  },
+  "brandName": {
+    "message": "Immersion Translation: Bilinguale Webseiten & PDF Übersetzung"
+  },
+  "brandDescription": {
+    "message": "Bilingual web page translation, also supports PDF translation, bilingual Epub eBook translation, free to use."
+  },
+  "toggleTranslatePage": {
+    "message": "Übersetzen Sie ins {targetLanguage}"
+  },
+  "toggleTranslateTheWholePage": {
+    "message": "Alle Bereiche der Seite übersetzen/den Originaltext anzeigen"
+  },
+  "toggleOnlyTransation": {
+    "message": "Wechseln Sie in den Zweisprachen-/Nur-Übersetzungsmodus"
+  },
+  "toggleTranslateToThePageEndImmediately": {
+    "message": "Sofortige Übersetzung am Ende der Seite/Anzeige des Originaltextes"
+  },
+  "toggleTranslateTheMainPage": {
+    "message": "Den Hauptbereich der Seite übersetzen/den Originaltext anzeigen"
+  },
+  "shareToDraft": {
+    "message": "Zweisprachige Seiten teilen"
+  },
+  "openOptionsPage": {
+    "message": "Öffnen Sie die Einstellungsseite"
+  },
+  "toggleTranslationMask": {
+    "message": "Translationsunschärfe-Effekt ein-/ausblenden"
+  },
+  "translateLocalPdfFile": {
+    "message": "Lokale PDF-Dateien übersetzen"
+  },
+  "openEbookViewer": {
+    "message": "Lokale eBooks lesen"
+  },
+  "openEbookBuilder": {
+    "message": "Zweisprachige EPUB eBooks erstellen"
+  },
+  "translateLocalHtmlFile": {
+    "message": "HTML/Txt-Dateien übersetzen"
+  },
+  "translateLocalSubtitleFile": {
+    "message": "Lokale Untertiteldateien übersetzen"
+  },
+  "openAboutPage": {
+    "message": "Über/Feedback"
+  },
+  "translateInputBox": {
+    "message": "Übersetzen Sie den aktuellen Inhalt des Eingabefelds."
+  },
+  "translateWithDeepL": {
+    "message": "Vorübergehende Verwendung von DeepL zur Übersetzung der aktuellen Seite"
+  },
+  "translateWithTransmart": {
+    "message": "Verwenden Sie vorübergehend Tencent, um die aktuelle Seite zu übersetzen."
+  },
+  "translateWithOpenAI": {
+    "message": "Vorübergehende Verwendung von OpenAI zum Übersetzen der aktuellen Seite"
+  },
+  "toggleMouseHoverTranslateDirectly": {
+    "message": "Auf der Seite das direkte Übersetzen durch Mouseover temporär aktivieren oder deaktivieren"
+  },
+  "translateWithBing": {
+    "message": "Verwenden Sie vorübergehend Microsoft Translate, um die aktuelle Seite zu übersetzen."
+  },
+  "translateWithGoogle": {
+    "message": "Vorübergehende Verwendung von Google Übersetzer für die aktuelle Seite"
+  },
+  "toggleVideoSubtitlePreTranslation": {
+    "message": "Wechseln Sie zu zweisprachigen Untertiteln und verwenden Sie vorzugsweise immersive Übersetzungseinstellungen."
+  },
+  "translateWithGemini": {
+    "message": "Verwenden Sie vorübergehend Gemini, um die aktuelle Seite zu übersetzen."
+  },
+  "brandDescriptionForSafari": {
+    "message": "【Immersive Übersetzung】Ein kostenloses zweisprachiges Webseiten-Übersetzungs-Plugin (Originaltext/Übersetzung), das gleichzeitig PDF-Übersetzung und EPUB-E-Book-Übersetzung unterstützt und das Originaldokumentenlayout beibehält, YouTube/Netflix und andere Online-Video-Zweisprachen-Untertitel-Übersetzung, Unterstützung für Deepl/Google und andere Mainstream-Übersetzungsdienste;"
+  },
+  "textTranslate": {
+    "message": "Textübersetzung"
+  },
+  "PdfProFile": {
+    "message": "Von KI angetriebene PDF Pro Übersetzung"
+  },
+  "translateWithClaude": {
+    "message": "Verwenden Sie vorübergehend Claude, um die aktuelle Seite zu übersetzen."
+  },
+  "toggleTranslatePageOfficialPage": {
+    "message": "Webseite übersetzen/Originaltext anzeigen"
+  },
+  "translateText": {
+    "message": "Translate \"{text}\""
+  },
+  "translateWithCustom1": {
+    "message": "Vorübergehende Nutzung von kundenspezifischen Übersetzungsdiensten zur Übersetzung der aktuellen Seite(1)"
+  },
+  "translateWithCustom3": {
+    "message": "Vorübergehende Nutzung von kundenspezifischen Übersetzungsdiensten zur Übersetzung der aktuellen Seite(3)"
+  },
+  "translateWithCustom2": {
+    "message": "Vorübergehende Nutzung von kundenspezifischen Übersetzungsdiensten zur Übersetzung der aktuellen Seite(2)"
+  },
+  "translateMangaMenuId": {
+    "message": "Bild übersetzen/Bild wiederherstellen"
+  }
+}
