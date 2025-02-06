@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "__MSG_brandName__",
   "description": "__MSG_brandDescription__",
-  "version": "1.11.7",
+  "version": "1.14.1",
   "default_locale": "en",
   "background": {
     "scripts": [
@@ -13,7 +13,9 @@
     "styles/inject.css",
     "pdf/index.html",
     "video-subtitle/inject.js",
-    "image/inject.js"
+    "image/inject.js",
+    "tesseract/worker.min.js",
+    "tesseract/tesseract-core-simd-lstm.wasm.js"
   ],
   "content_scripts": [
     {
@@ -119,7 +121,7 @@
     "storage",
     "activeTab",
     "menus",
-	  "messagesModify",
+    "messagesModify",
     "webRequest",
     "webRequestBlocking"
   ],
