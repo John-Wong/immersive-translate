@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "__MSG_brandName__",
   "description": "__MSG_brandDescription__",
-  "version": "1.14.1",
+  "version": "1.15.10",
   "default_locale": "en",
   "background": {
     "service_worker": "background.js"
@@ -15,7 +15,8 @@
         "video-subtitle/inject.js",
         "image/inject.js",
         "tesseract/worker.min.js",
-        "tesseract/tesseract-core-simd-lstm.wasm.js"
+        "tesseract/tesseract-core-simd-lstm.wasm.js",
+        "browser-bridge/inject.js"
       ],
       "matches": [
         "<all_urls>",
