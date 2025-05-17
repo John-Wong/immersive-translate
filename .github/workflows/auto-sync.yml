@@ -1,0 +1,105 @@
+name: Auto Sync
+
+on:
+  schedule:
+    - cron: '0 0,12,18 * * *'
+  workflow_dispatch: 
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT }}
+
+      - name: Check for new releases
+        id: check_new
+        run: |
+          UPSTREAM_VERSION=$(curl -sL https://api.github.com/repos/immersive-translate/immersive-translate/releases/latest | jq -r .tag_name)
+          if [ -z "$UPSTREAM_VERSION" ] || [ "$UPSTREAM_VERSION" == "null" ]; then
+            echo "Error: Failed to fetch upstream version from immersive-translate/immersive-translate."
+            exit 1
+          fi
+          echo "Fetched upstream version: $UPSTREAM_VERSION"
+
+          CURRENT=$(curl -sLH "Authorization: token ${{ secrets.PAT }}" https://api.github.com/repos/${{ github.repository }}/releases/latest | jq -r .tag_name)
+          CURRENT_VERSION=${CURRENT%%-*}
+          if [ "$CURRENT_VERSION" == "null" ] || [ -z "$CURRENT_VERSION" ]; then
+            echo "No releases found in ${{ github.repository }}. Will proceed to build if upstream has a new version."
+            CURRENT_VERSION="v0.0.0"
+          fi
+          echo "Current repository version: $CURRENT_VERSION"
+
+          if [ "$UPSTREAM_VERSION" == "${CURRENT_VERSION}" ]; then
+            echo "Latest versions are the same. No new build needed."
+            echo "HAS_NEW_VERSION=false" >> $GITHUB_OUTPUT
+          else
+            echo "Versions are different. Proceeding with build for new version: $UPSTREAM_VERSION."
+            echo "NEW_VERSION=$UPSTREAM_VERSION" >> $GITHUB_ENV
+            echo "HAS_NEW_VERSION=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Build for new version
+        if: steps.check_new.outputs.HAS_NEW_VERSION == 'true'
+        run: |
+          echo "Downloading source code for version ${{ env.NEW_VERSION }} from upstream..."
+          DOWNLOAD_URL="https://github.com/immersive-translate/immersive-translate/archive/refs/tags/${{ env.NEW_VERSION }}.tar.gz"
+          curl -sL "$DOWNLOAD_URL" -o source.tar.gz
+
+          echo "Extracting source code..."
+          VERSION=${{ env.NEW_VERSION }}
+          tar -xzf source.tar.gz --exclude="immersive-translate-${VERSION#v}/README*" --strip-components=1
+          cp -r ./dist/firefox/* ./dist/thunderbird/
+          echo "Copied ./dist/firefox to ./dist/thunderbird"
+
+          echo "Excute migration script..."
+          chmod +x ./scripts/firefox2thunderbird.sh && ./scripts/firefox2thunderbird.sh
+          
+      - name: Commit changes
+        if: steps.check_new.outputs.HAS_NEW_VERSION == 'true'
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+          git add .
+
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            echo "Committing changes for version ${{ env.NEW_VERSION }}..."
+            git commit -m "update to ${{ env.NEW_VERSION }}"
+            git push
+            echo "Changes committed and pushed."
+          fi
+
+      - name: Package into .xpi
+        id: xpi_package
+        if: steps.check_new.outputs.HAS_NEW_VERSION == 'true'
+        run: |
+          VERSION=${{ env.NEW_VERSION }}
+          cd ./dist/thunderbird && zip -r "../../thunderbird-immersive-translate-${VERSION#v}.xpi" .
+          echo "XPI_PATH=./thunderbird-immersive-translate-${VERSION#v}.xpi" >> $GITHUB_OUTPUT
+      
+      - name: Release new version
+        if: steps.check_new.outputs.HAS_NEW_VERSION == 'true'
+        uses: softprops/action-gh-release@v2.0.6
+        with:
+          tag_name: "${{ env.NEW_VERSION }}-tb"
+          name: "${{ env.NEW_VERSION }}-tb"
+          body: |
+            See [ChangeLog](https://immersivetranslate.com/docs/CHANGELOG/)
+            Note: 由于各商店审核时间不一致，所以对应的商店可能并不是最新版本，请耐心等待商店审核，或[手动下载安装包后安装最新版（大多数用户不推荐这样做）](https://immersivetranslate.com/docs/installation/#%E6%89%8B%E5%8A%A8%E5%AE%89%E8%A3%85-%E8%BF%BD%E8%B8%AA%E6%9C%80%E6%96%B0%E5%BC%80%E5%8F%91%E7%89%B9%E6%80%A7)。
+
+            - [App Store for Safari](https://apps.apple.com/app/immersive-translate/id6447957425)
+            - [Firefox Addon](https://addons.mozilla.org/zh-CN/firefox/addon/immersive-translate/)
+            - [Chrome Store](https://chrome.google.com/webstore/detail/immersive-translate/bpoadfkcbjbfhfodiogcnhhhpibjhbnh)
+            - [Edge Store](https://microsoftedge.microsoft.com/addons/detail/amkbmndfnliijdhojkpoglbnaaahippg)
+            - [Userscript](https://download.immersivetranslate.com/immersive-translate.user.js)
+          files: ${{ steps.xpi_package.outputs.XPI_PATH }}
+          draft: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT }}
