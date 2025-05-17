@@ -377,32 +377,6 @@
     }
   },
   {
-    "id": 306,
-    "priority": 1,
-    "action": {
-      "type": "modifyHeaders",
-      "requestHeaders": [
-        {
-          "header": "referer",
-          "operation": "set",
-          "value": "https://mangabuddy.com/"
-        }
-      ]
-    },
-    "condition": {
-      "urlFilter": "https://s*.mbbcdn.com/*",
-      "resourceTypes": [
-        "xmlhttprequest"
-      ],
-      "domainType": "thirdParty",
-      "initiatorDomains": [
-        "cfhamdkdjgoelclgllcoikbckcfpaklj",
-        "bpoadfkcbjbfhfodiogcnhhhpibjhbnh",
-        "amkbmndfnliijdhojkpoglbnaaahippg"
-      ]
-    }
-  },
-  {
     "id": 307,
     "priority": 1,
     "action": {
@@ -520,7 +494,7 @@
       ]
     },
     "condition": {
-      "urlFilter": "https://*.klimv1.xyz/images*",
+      "urlFilter": "https://*.(klimv1|jfimv2).xyz/images*",
       "resourceTypes": [
         "xmlhttprequest"
       ],
