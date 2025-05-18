@@ -53,6 +53,7 @@ jobs:
           echo "Extracting source code..."
           VERSION=${{ env.NEW_VERSION }}
           tar -xzf source.tar.gz --exclude="immersive-translate-${VERSION#v}/README*" --strip-components=1
+          rm source.tar.gz
           cp -r ./dist/firefox/* ./dist/thunderbird/
           echo "Copied ./dist/firefox to ./dist/thunderbird"
 
@@ -100,6 +101,6 @@ jobs:
             - [Edge Store](https://microsoftedge.microsoft.com/addons/detail/amkbmndfnliijdhojkpoglbnaaahippg)
             - [Userscript](https://download.immersivetranslate.com/immersive-translate.user.js)
           files: ${{ steps.xpi_package.outputs.XPI_PATH }}
-          draft: true
+          # draft: true
         env:
           GITHUB_TOKEN: ${{ secrets.PAT }}
