@@ -1,5 +1,38 @@
 # About this Repository
 
+This repository automatically syncs the [official release versions](https://github.com/immersive-translate/immersive-translate/releases) daily at 4:00, 10:00, and 16:00 (UTC), and automatically builds and publishes a compatible extension package for Thunderbird. Please visit [Releases of this repository](https://github.com/John-Wong/immersive-translate/releases) page to download the extension package named `thunderbird-immersive-translate-x.x.x.xpi`.
+> [!IMPORTANT]
+> Use this Thunderbird plugin at your own risk. If you are concerned about personal privacy leaks, use it with caution!
+
+## FAQ
+
+### Can't translate? Floating window not displayed?
+Please check if you have installed other plugins that may override the original email reading pane (such as Thunderbird Conversations), as the immersive translate plugin cannot work on top of these plugins.
+
+### Why doesn't the extension work for plain text emails?
+This is because Thunderbird wraps the plain text email body with `<pre></pre>` tags to maintain the original formatting, while the immersive translation plugin does not process content within `<pre>` tags by default.
+
+The solution is to go to the plugin's "Options → Developer Settings → Edit User Rules" and add an exception rule to process the content within that `<pre>` tag.
+```json
+[
+  {
+    "selectorMatches": [
+      ".moz-text-plain"
+    ],
+    "longBuildPageLength": 1000,
+    "isTransformPreTagNewLine": 1,
+    "excludeTags.remove": [
+      "PRE"
+    ],
+    "buildContainerSelectors": [
+      "pre"
+    ]
+  }
+]
+```
+
+# Original README
+
 This repository is used to release the Immersive Translate [Release Versions](https://github.com/immersive-translate/immersive-translate/releases) and collect and track user feedback via [Github Issues](https://github.com/immersive-translate/immersive-translate/issues).
 
 [Immersive Translate](https://immersivetranslate.com/) is not open source software, this repository **DOES NOT** contain the source code of Immersive Translate.
