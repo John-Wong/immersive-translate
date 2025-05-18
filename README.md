@@ -31,6 +31,32 @@
 ]
 ```
 
+### 我想自己构建仓库中没有的历史版本
+1. 克隆本仓库并进入仓库目录
+  ```bash
+  git clone https://github.com/John-Wong/immersive-translate.git && cd immersive-translate
+  ```
+2. 下载解压指定历史版本的官方源代码
+  ```bash
+  # 指定一个版本号
+  VERSION=v1.16.12
+  curl -sL "https://github.com/immersive-translate/immersive-translate/archive/refs/tags/${VERSION}.tar.gz" -o source.tar.gz
+  tar -xzf source.tar.gz --exclude="immersive-translate-${VERSION#v}/README*" --strip-components=1
+  ```
+3. 复制 firefox 目录到 thunderbird 目录
+  ```bash
+  cp -r ./dist/firefox/* ./dist/thunderbird/
+  ```
+4. 运行移植脚本
+  ```bash
+  chmod +x ./scripts/firefox2thunderbird.sh && ./scripts/firefox2thunderbird.sh
+  ```
+5. 打包插件
+  ```bash
+  # 打包插件置于仓库根目录
+  cd ./dist/thunderbird && zip -r "../../thunderbird-immersive-translate-${VERSION#v}.xpi" .
+  ```
+
 # 原仓库介绍
 
 本仓库用于发布沉浸式双语网页翻译扩展的 [Release 版本](https://github.com/immersive-translate/immersive-translate/releases)以及使用 [Github Issues](https://github.com/immersive-translate/immersive-translate/issues)收集和跟进用户反馈。

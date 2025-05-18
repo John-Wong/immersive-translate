@@ -31,6 +31,32 @@ The solution is to go to the plugin's "Options → Developer Settings → Edit U
 ]
 ```
 
+### I want to build a historical version that is not in the repository releases
+1. Clone this repository and enter the repository directory
+  ```bash
+  git clone https://github.com/John-Wong/immersive-translate.git && cd immersive-translate
+  ```
+2. Download and unzip the official source code of the specified historical version
+  ```bash
+  # Specify the version name
+  VERSION=v1.16.12
+  curl -sL "https://github.com/immersive-translate/immersive-translate/archive/refs/tags/${VERSION}.tar.gz" -o source.tar.gz
+  tar -xzf source.tar.gz --exclude="immersive-translate-${VERSION#v}/README*" --strip-components=1
+  ```
+3. Copy the firefox directory to the thunderbird directory
+  ```bash
+  cp -r ./dist/firefox/* ./dist/thunderbird/
+  ```
+4. Run the migration script
+  ```bash
+  chmod +x ./scripts/firefox2thunderbird.sh && ./scripts/firefox2thunderbird.sh
+  ```
+5. Packaging plugins
+  ```bash
+  # Package the plugin in the repository root directory
+  cd ./dist/thunderbird && zip -r "../../thunderbird-immersive-translate-${VERSION#v}.xpi" .
+  ```
+
 # Original README
 
 This repository is used to release the Immersive Translate [Release Versions](https://github.com/immersive-translate/immersive-translate/releases) and collect and track user feedback via [Github Issues](https://github.com/immersive-translate/immersive-translate/issues).
