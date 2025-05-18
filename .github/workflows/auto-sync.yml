@@ -2,7 +2,7 @@ name: Auto Sync
 
 on:
   schedule:
-    - cron: '0 0,12,18 * * *'
+    - cron: '0 4,10,16 * * *'
   workflow_dispatch: 
 
 jobs:
