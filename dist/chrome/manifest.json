@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "__MSG_brandName__",
   "description": "__MSG_brandDescription__",
-  "version": "1.18.3",
+  "version": "1.18.4",
   "default_locale": "en",
   "background": {
     "service_worker": "background.js"
@@ -141,9 +141,6 @@
     "offscreen",
     "sidePanel"
   ],
-  "side_panel": {
-    "default_path": "side-panel.html"
-  },
   "host_permissions": [
     "<all_urls>"
   ],
