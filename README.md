@@ -1,5 +1,8 @@
 # 关于这个仓库
 
+> [!NOTE]
+> 自 1.19.4 版本始，官方开始原生支持 Thunderbird，本仓库迎来完结。
+
 本仓库每日北京时间12点、18点、24点自动同步[官方 Releases 版本](https://github.com/immersive-translate/immersive-translate/releases)，并自动构建发布可用于 Thunderbird 的扩展包，请移步[本仓库 Releases](https://github.com/John-Wong/immersive-translate/releases) 页面查看下载名为`thunderbird-immersive-translate-x.x.x.xpi`的扩展包。
 > [!IMPORTANT]
 > 使用本 Thunderbird 插件请自行承担风险，担心个人隐私泄露的慎用！

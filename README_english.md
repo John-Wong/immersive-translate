@@ -1,5 +1,8 @@
 # About this Repository
 
+> [!NOTE]
+> Starting from version 1.19.4, the official version began natively supporting Thunderbird, and this repository comes to an end.
+
 This repository automatically syncs the [official release versions](https://github.com/immersive-translate/immersive-translate/releases) daily at 4:00, 10:00, and 16:00 (UTC), and automatically builds and publishes a compatible extension package for Thunderbird. Please visit [Releases of this repository](https://github.com/John-Wong/immersive-translate/releases) page to download the extension package named `thunderbird-immersive-translate-x.x.x.xpi`.
 > [!IMPORTANT]
 > Use this Thunderbird plugin at your own risk. If you are concerned about personal privacy leaks, use it with caution!
