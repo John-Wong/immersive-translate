@@ -3,43 +3,43 @@
     "message": "Immersive Translate"
   },
   "brandName": {
-    "message": "Immersive Translate - ウェブページやPDFを翻訳"
+    "message": "Immersive Translate - AIバイリンガルWebページ翻訳 | PDF翻訳 | 動画翻訳 | マンガ翻訳"
   },
   "brandDescription": {
-    "message": "無料で使用できる（原文/翻訳）対訳Webページ翻訳拡張機能、PDF翻訳（元の文書のフォーマットを保持）、動画字幕翻訳（YouTube、Netflixなど）、EPUB電子書籍の翻訳。"
+    "message": "原文と訳文を並べて読める無料のWebページ翻訳拡張機能。PDF翻訳（レイアウト保持）、動画のバイリンガル字幕翻訳（YouTube、Netflixなど）、EPUB翻訳に対応。OpenAI (ChatGPT)、DeepL、Gemini(Bard) などのAI翻訳LLMも利用できます"
   },
   "toggleTranslatePage": {
     "message": "{targetLanguage}に翻訳"
   },
   "toggleTranslateTheWholePage": {
-    "message": "ページ全体を翻訳/原文を表示"
+    "message": "ページ全体を翻訳 / 原文を表示"
   },
   "toggleOnlyTransation": {
-    "message": "「翻訳のみモード」に切り替える"
+    "message": "バイリンガル/訳文のみモードを切り替え"
   },
   "toggleTranslateToThePageEndImmediately": {
-    "message": "ページの最下部まで即時翻訳/原文を表示"
+    "message": "すぐにページ最下部まで翻訳 / 原文を表示"
   },
   "toggleTranslateTheMainPage": {
-    "message": "ページのメインエリアを翻訳/原文を表示"
+    "message": "ページのメインエリアを翻訳 / 原文を表示"
   },
   "openOptionsPage": {
     "message": "設定ページを開く"
   },
   "toggleTranslationMask": {
-    "message": "翻訳テキストのぼかし効果（学習モード）を切り替える"
+    "message": "現在のページの訳文をぼかし効果（学習モード）に切り替え"
   },
   "babelDOC": {
-    "message": "BabelDOC PDFレイアウト保持翻訳"
+    "message": "BabelDOC レイアウト保持PDF翻訳"
   },
   "translateLocalPdfFile": {
     "message": "ローカルPDFファイルを翻訳"
   },
   "openEbookViewer": {
-    "message": "ローカルの電子書籍を読む"
+    "message": "ローカル電子書籍を読む"
   },
   "openEbookBuilder": {
-    "message": "二か国語EPUB電子書籍を作成"
+    "message": "バイリンガルEPUB電子書籍を作成"
   },
   "translateLocalHtmlFile": {
     "message": "HTML/txtファイルを翻訳"
@@ -48,37 +48,37 @@
     "message": "ローカル字幕ファイルを翻訳"
   },
   "openAboutPage": {
-    "message": "バージョン情報/フィードバック/スポンサー"
+    "message": "バージョン情報/フィードバック"
   },
   "translateWithGemini": {
-    "message": "現在のページを一時的にGeminiで翻訳してください"
+    "message": "一時的にGeminiを使用して現在のページを翻訳"
   },
   "translateWithOpenAI": {
-    "message": "一時的にOpenAIを使って現在のページを翻訳してください"
+    "message": "一時的にOpenAIを使用して現在のページを翻訳"
   },
   "translateInputBox": {
-    "message": "現在の入力ボックスの内容を翻訳する"
+    "message": "現在の入力欄の内容を翻訳"
   },
   "translateWithDeepL": {
-    "message": "現在のページを一時的にDeepLで翻訳してください。"
+    "message": "一時的にDeepLを使用して現在のページを翻訳"
   },
   "translateWithGoogle": {
-    "message": "一時的にGoogle翻訳で現在のページを翻訳してください。"
+    "message": "一時的にGoogle翻訳を使用して現在のページを翻訳"
   },
   "translateWithTransmart": {
-    "message": "一時的にテンセント翻訳で現在のページを翻訳してください"
+    "message": "一時的にTencent翻訳を使用して現在のページを翻訳"
   },
   "translateWithBing": {
-    "message": "現在のページをMicrosoft Translatorで一時的に翻訳する"
+    "message": "一時的にMicrosoft翻訳を使用して現在のページを翻訳"
   },
   "toggleMouseHoverTranslateDirectly": {
-    "message": "ページ上のマウスホバーによる直接翻訳を一時的に有効/無効にする"
+    "message": "ページ上でのマウスホバーによる直接翻訳を一時的に有効/無効にする"
   },
   "toggleVideoSubtitlePreTranslation": {
-    "message": "没入型翻訳の機能で動画字幕を切り替える"
+    "message": "バイリンガル字幕でImmersive Translateの設定を優先するかどうかを切り替え"
   },
   "brandDescriptionForSafari": {
-    "message": "ウェブページ、PDF、ePub電子書籍、動画字幕を無料で二か国語翻訳"
+    "message": "原文と訳文を並べて読める無料のWebページ翻訳拡張機能。PDFとEPUBを元のレイアウトを保ったまま翻訳できます。YouTube/Netflixなどの動画字幕翻訳、DeepL/Googleなどの主要な翻訳サービスにも対応しています"
   },
   "PdfProFile": {
     "message": "AI駆動のPDF Pro翻訳"
@@ -87,28 +87,28 @@
     "message": "テキスト翻訳"
   },
   "translateWithClaude": {
-    "message": "現在のページをClaudeで一時的に翻訳する"
+    "message": "一時的にClaudeを使用して現在のページを翻訳"
   },
   "translateText": {
-    "message": "「{text}」を翻訳"
+    "message": "テキストを翻訳: \"{text}\""
   },
   "toggleTranslatePageOfficialPage": {
     "message": "ウェブページを翻訳/原文を表示"
   },
   "translateWithCustom1": {
-    "message": "現在のページを翻訳するためのカスタム翻訳サービスの一時的な使用(1)"
+    "message": "一時的にカスタム翻訳サービス(1)を使用して現在のページを翻訳"
   },
   "translateWithCustom3": {
-    "message": "現在のページを翻訳するためのカスタム翻訳サービスの一時的な使用(3)"
+    "message": "一時的にカスタム翻訳サービス(3)を使用して現在のページを翻訳"
   },
   "translateWithCustom2": {
-    "message": "現在のページを翻訳するためのカスタム翻訳サービスの一時的な使用(2)"
+    "message": "一時的にカスタム翻訳サービス(2)を使用して現在のページを翻訳"
   },
   "translateMangaMenuId": {
-    "message": "画像を翻訳/元に戻す"
+    "message": "画像を翻訳 / 原画に戻す"
   },
   "toggleSidePanel": {
-    "message": "サイドパネルを開く/閉じる"
+    "message": "サイドバーを開く/閉じる"
   },
   "openAiWritingModal": {
     "message": "AI Write モーダルを開く"
