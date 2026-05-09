@@ -314,6 +314,19 @@ select.translate-service {
   border-radius: 12px;
 }
 
+.translation-service-primary-field {
+  position: relative;
+}
+
+.translation-service-guide-hitbox {
+  position: absolute;
+  right: 46px;
+  top: 0;
+  width: 1px;
+  height: 1px;
+  pointer-events: auto;
+}
+
 .min-select-container {
   display: flex;
   justify-content: space-between;
@@ -746,9 +759,27 @@ select.translate-service {
   font-size: 12px;
   font-weight: 500;
   color: var(--text-gray-9);
-  padding: 6px 8px 4px;
+  padding: 8px 8px 6px;
   margin-top: 2px;
   letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.custom-select-group-header--recommendation {
+  color: #beb3a0;
+  font-weight: 400;
+  letter-spacing: 0;
+  padding-top: 4px;
+}
+
+.custom-select-group-header-tip {
+  display: inline-flex;
+  align-items: center;
+  color: #bcbcbc;
+  cursor: pointer;
+  line-height: 0;
 }
 
 .more-container {

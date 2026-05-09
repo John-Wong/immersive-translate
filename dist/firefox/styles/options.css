@@ -1501,9 +1501,27 @@ textarea[disabled] {
   font-size: 12px;
   font-weight: 500;
   color: var(--text-gray-9);
-  padding: 6px 8px 4px;
+  padding: 8px 8px 6px;
   margin-top: 2px;
   letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.custom-select-group-header--recommendation {
+  color: #beb3a0;
+  font-weight: 400;
+  letter-spacing: 0;
+  padding-top: 4px;
+}
+
+.custom-select-group-header-tip {
+  display: inline-flex;
+  align-items: center;
+  color: #bcbcbc;
+  cursor: pointer;
+  line-height: 0;
 }
 
 .consent-modal {
