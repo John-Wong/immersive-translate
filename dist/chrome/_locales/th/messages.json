@@ -1,0 +1,116 @@
+{
+  "shortBrandName": {
+    "message": "Immersive Translate"
+  },
+  "brandName": {
+    "message": "Immersive Translate - การแปลหน้าเว็บสองภาษา AI | แปล PDF | แปลวิดีโอ | แปลการ์ตูน"
+  },
+  "brandDescription": {
+    "message": "【Immersive Translate】ส่วนขยายแปลหน้าเว็บแบบสองภาษา (ต้นฉบับ/คำแปล) ฟรี รองรับการแปล PDF (คงรูปแบบ), คำบรรยายวิดีโอแบบสองภาษา (Youtube, Netflix), และ EPUB eBook; รองรับโมเดลแปล AI เช่น OpenAI (ChatGPT), DeepL, Gemini(Bard) เป็นต้น"
+  },
+  "toggleTranslatePage": {
+    "message": "แปลเป็น {targetLanguage}"
+  },
+  "toggleTranslateTheWholePage": {
+    "message": "แปลทั้งหน้า/แสดงข้อความต้นฉบับ"
+  },
+  "toggleTranslateToThePageEndImmediately": {
+    "message": "แปลไปจนถึงท้ายหน้า/แสดงข้อความต้นฉบับ"
+  },
+  "toggleTranslateTheMainPage": {
+    "message": "แปลเฉพาะส่วนหลักของหน้า/แสดงข้อความต้นฉบับ"
+  },
+  "openOptionsPage": {
+    "message": "เปิดหน้าการตั้งค่า"
+  },
+  "babelDOC": {
+    "message": "BabelDOC แปล PDF พร้อมคงรูปแบบ"
+  },
+  "translateLocalPdfFile": {
+    "message": "แปลไฟล์ PDF ในเครื่อง"
+  },
+  "openEbookViewer": {
+    "message": "อ่านอีบุ๊กในเครื่อง"
+  },
+  "openEbookBuilder": {
+    "message": "สร้างอีบุ๊ก EPUB แบบสองภาษา"
+  },
+  "translateLocalHtmlFile": {
+    "message": "แปลไฟล์ HTML/txt"
+  },
+  "translateLocalSubtitleFile": {
+    "message": "แปลไฟล์คำบรรยายในเครื่อง"
+  },
+  "openAboutPage": {
+    "message": "เกี่ยวกับ/ข้อเสนอแนะ/สนับสนุน"
+  },
+  "toggleMouseHoverTranslateDirectly": {
+    "message": "เปิดหรือปิดการแปลโดยตรงเมื่อวางเมาส์บนหน้าเว็บชั่วคราว"
+  },
+  "translateWithOpenAI": {
+    "message": "แปลหน้าปัจจุบันด้วย OpenAI ชั่วคราว"
+  },
+  "translateWithDeepL": {
+    "message": "แปลหน้าปัจจุบันด้วย DeepL ชั่วคราว"
+  },
+  "translateWithGoogle": {
+    "message": "แปลหน้าปัจจุบันด้วย Google ชั่วคราว"
+  },
+  "translateWithBing": {
+    "message": "แปลหน้าปัจจุบันด้วย Microsoft Translator ชั่วคราว"
+  },
+  "translateWithGemini": {
+    "message": "แปลหน้าปัจจุบันด้วย Gemini ชั่วคราว"
+  },
+  "translateWithTransmart": {
+    "message": "แปลหน้าปัจจุบันด้วย Tencent Translator ชั่วคราว"
+  },
+  "translateInputBox": {
+    "message": "แปลเนื้อหาในช่องป้อนข้อมูลปัจจุบัน"
+  },
+  "toggleSidePanel": {
+    "message": "เปิด/ปิดแผงด้านข้าง"
+  },
+  "toggleOnlyTransation": {
+    "message": "สลับเป็น/ออกจากโหมดแสดงเฉพาะคำแปล"
+  },
+  "toggleTranslationMask": {
+    "message": "สลับเอฟเฟกต์เบลอบนข้อความแปล (โหมดเรียนรู้) สำหรับหน้าปัจจุบัน"
+  },
+  "toggleVideoSubtitlePreTranslation": {
+    "message": "สลับให้ใช้การตั้งค่า Immersive Translate ก่อนสำหรับคำบรรยายสองภาษา"
+  },
+  "brandDescriptionForSafari": {
+    "message": "เว็บไซต์แปลฟรี แปล PDF และหนังสืออีบุ๊ก Epub แปลคำบรรยายวิดีโอแบบสองภาษา"
+  },
+  "PdfProFile": {
+    "message": "การแปล PDF Pro ด้วย AI"
+  },
+  "textTranslate": {
+    "message": "แปลข้อความ"
+  },
+  "translateWithClaude": {
+    "message": "ใช้ Claude แปลหน้าเว็บปัจจุบันชั่วคราว"
+  },
+  "toggleTranslatePageOfficialPage": {
+    "message": "แปลหน้าเว็บ/แสดงต้นฉบับ"
+  },
+  "translateText": {
+    "message": "แปล \"{text}\""
+  },
+  "translateWithCustom1": {
+    "message": "ใช้บริการแปลแบบกำหนดเองชั่วคราวเพื่อแปลหน้าเว็บปัจจุบัน(1)"
+  },
+  "translateWithCustom2": {
+    "message": "ใช้บริการแปลแบบกำหนดเองชั่วคราวเพื่อแปลหน้าเว็บปัจจุบัน(2)"
+  },
+  "translateWithCustom3": {
+    "message": "ใช้บริการแปลแบบกำหนดเองชั่วคราวเพื่อแปลหน้าเว็บปัจจุบัน(3)"
+  },
+  "translateMangaMenuId": {
+    "message": "แปลภาพ/คืนค่าภาพ"
+  },
+  "openAiWritingModal": {
+    "message": "เปิดหน้าต่าง AI Write"
+  }
+}
