@@ -110,6 +110,12 @@
   "toggleSidePanel": {
     "message": "Abrir/Fechar painel lateral"
   },
+  "openSidePanel": {
+    "message": "Abrir painel lateral"
+  },
+  "closeSidePanel": {
+    "message": "Fechar painel lateral"
+  },
   "openAiWritingModal": {
     "message": "Abrir janela modal de AI Write"
   }

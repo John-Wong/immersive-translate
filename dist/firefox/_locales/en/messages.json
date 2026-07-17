@@ -71,6 +71,12 @@
   "toggleSidePanel": {
     "message": "Open/Close Side Panel"
   },
+  "openSidePanel": {
+    "message": "Open Side Panel"
+  },
+  "closeSidePanel": {
+    "message": "Close Side Panel"
+  },
   "toggleOnlyTransation": {
     "message": "Switch to /translation-only mode"
   },

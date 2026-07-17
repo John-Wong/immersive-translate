@@ -110,6 +110,12 @@
   "toggleSidePanel": {
     "message": "サイドバーを開く/閉じる"
   },
+  "openSidePanel": {
+    "message": "サイドバーを開く"
+  },
+  "closeSidePanel": {
+    "message": "サイドバーを閉じる"
+  },
   "openAiWritingModal": {
     "message": "AI Write モーダルを開く"
   }

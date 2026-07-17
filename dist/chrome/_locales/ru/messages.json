@@ -110,6 +110,12 @@
   "toggleSidePanel": {
     "message": "Открыть / Закрыть боковую панель"
   },
+  "openSidePanel": {
+    "message": "Открыть боковую панель"
+  },
+  "closeSidePanel": {
+    "message": "Закрыть боковую панель"
+  },
   "openAiWritingModal": {
     "message": "Открыть модальное окно «Напишет ИИ»"
   }

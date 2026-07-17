@@ -110,6 +110,12 @@
   "toggleSidePanel": {
     "message": "باز/بسته کردن پانل کناری"
   },
+  "openSidePanel": {
+    "message": "باز کردن پانل کناری"
+  },
+  "closeSidePanel": {
+    "message": "بستن پانل کناری"
+  },
   "openAiWritingModal": {
     "message": "باز کردن پنجره AI Write"
   }

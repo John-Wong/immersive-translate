@@ -71,6 +71,12 @@
   "toggleSidePanel": {
     "message": "Buka/Tutup Panel Samping"
   },
+  "openSidePanel": {
+    "message": "Buka Panel Samping"
+  },
+  "closeSidePanel": {
+    "message": "Tutup Panel Samping"
+  },
   "toggleOnlyTransation": {
     "message": "Beralih ke mode hanya terjemahan"
   },

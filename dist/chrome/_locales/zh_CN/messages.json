@@ -89,6 +89,12 @@
   "toggleSidePanel": {
     "message": "开启/关闭侧边栏"
   },
+  "openSidePanel": {
+    "message": "开启侧边栏"
+  },
+  "closeSidePanel": {
+    "message": "关闭侧边栏"
+  },
   "openAiWritingModal": {
     "message": "打开 AI Write 弹窗"
   },

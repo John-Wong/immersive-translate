@@ -112,5 +112,11 @@
   },
   "openAiWritingModal": {
     "message": "เปิดหน้าต่าง AI Write"
+  },
+  "openSidePanel": {
+    "message": "เปิดแผงด้านข้าง"
+  },
+  "closeSidePanel": {
+    "message": "ปิดแผงด้านข้าง"
   }
 }

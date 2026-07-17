@@ -71,6 +71,12 @@
   "toggleSidePanel": {
     "message": "開啟/關閉側邊欄"
   },
+  "openSidePanel": {
+    "message": "開啟側邊欄"
+  },
+  "closeSidePanel": {
+    "message": "關閉側邊欄"
+  },
   "toggleOnlyTransation": {
     "message": "切換雙語/僅顯示譯文模式"
   },
