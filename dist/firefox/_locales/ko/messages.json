@@ -81,7 +81,7 @@
     "message": "【몰입형 번역】무료의 (원문/번역문) 이중 언어 대조 웹 페이지 번역 플러그인으로, PDF 번역 및 EPUB 전자책 번역을 지원하며 원문의 문서 배치를 유지합니다. YouTube/Netflix 등의 온라인 비디오 이중 언어 자막 번역을 지원하며, Deepl/Google 등 주요 번역 서비스를 지원합니다."
   },
   "PdfProFile": {
-    "message": "AI 가 구동하는 PDF Pro 번역"
+    "message": "AI가 지원하는 PDF Pro 번역"
   },
   "textTranslate": {
     "message": "문서 번역"
@@ -90,7 +90,7 @@
     "message": "현재 페이지를 Claude 로 임시 번역"
   },
   "translateText": {
-    "message": "Translate \"{text}\""
+    "message": "\"{text}\" 번역"
   },
   "toggleTranslatePageOfficialPage": {
     "message": "웹 페이지 번역하기/원문 표시하기"
@@ -108,13 +108,13 @@
     "message": "이미지 번역/이미지 복원"
   },
   "toggleSidePanel": {
-    "message": "사이드 패널 열기 / 닫기"
+    "message": "사이드바 열기/닫기"
   },
   "openSidePanel": {
-    "message": "사이드 패널 열기"
+    "message": "사이드바 열기"
   },
   "closeSidePanel": {
-    "message": "사이드 패널 닫기"
+    "message": "사이드바 닫기"
   },
   "openAiWritingModal": {
     "message": "AI Write 모달 열기"
