@@ -3,10 +3,10 @@
     "message": "Immersive Translate"
   },
   "brandName": {
-    "message": "Immersive Translate - การแปลหน้าเว็บสองภาษา AI | แปล PDF | แปลวิดีโอ | แปลการ์ตูน"
+    "message": "Immersive Translate: แปลเว็บสองภาษา AI, PDF, วิดีโอ และการ์ตูน"
   },
   "brandDescription": {
-    "message": "【Immersive Translate】ส่วนขยายแปลหน้าเว็บแบบสองภาษา (ต้นฉบับ/คำแปล) ฟรี รองรับการแปล PDF (คงรูปแบบ), คำบรรยายวิดีโอแบบสองภาษา (Youtube, Netflix), และ EPUB eBook; รองรับโมเดลแปล AI เช่น OpenAI (ChatGPT), DeepL, Gemini(Bard) เป็นต้น"
+    "message": "【Immersive Translate】ส่วนขยายแปลเว็บสองภาษาฟรี รองรับ PDF แบบคงรูปแบบ คำบรรยายสองภาษาใน YouTube/Netflix และ EPUB พร้อมโมเดล AI เช่น ChatGPT, DeepL และ Gemini"
   },
   "toggleTranslatePage": {
     "message": "แปลเป็น {targetLanguage}"
